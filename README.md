@@ -8,78 +8,52 @@ It allows administrators to efficiently manage customers, products, inventory, a
 
 ### 🛠️ Technical Requirements
 To run this system, ensure your environment meets the following specifications.
+
 Hardware
+
 Desktop or Laptop
+
 Minimum 4GB RAM
+
 500GB Storage
+
 Software
+
 Python (Latest Version)
+
 MySQL Server
+
 MySQL Connector for Python
 
 ### 🚀 Key Features
-🛡️ Administrative Control (Admin Panel)
-Customer Management
-Add new customer details
-Update customer information
-Search customer records
-Delete customer records
-Product Management
-Add new products to the system
-Update product price, quantity, and company details
-Remove products from inventory
-View available stock
-Sales & Billing Management
-Record product purchases
-Generate purchase records
-Automatically update product quantity after sales
-Product Report System
-Maintain purchase reports
-Track payment status and due amounts
+🛡️The Administrative Control (Admin Panel) of the Canteen Management System offers full control over the management of the canteen business. The system offers a full-fledged management system for handling the business, which includes a Customer Management system, where the admin can add new customer information, edit existing customer information, search for existing customer information, and delete existing customer information when needed.
+
+The system offers a full-fledged Product Management system, where the admin can add new products, edit existing product information, delete existing product information, and view existing product information.
+
+The system offers a full-fledged Sales and Billing Management system, where the admin can record product purchases, generate a purchase record, and update existing product information after each sale.
+
+The system offers a full-fledged Product Report System, which helps in managing purchase reports and tracking payment status along with any due amounts.
 
 ### 📂 Database Structure
-The system uses four main MySQL tables to manage data.
-Customer Table
-Stores customer information such as:
-Customer ID
-Customer Name
-Address
-Phone Number
-Product Table
-Maintains product inventory details:
-Product ID
-Product Name
-Company
-Price
-Quantity
-Discount
-Rate
-Purchase Date
-Purchase Table
-Records product purchase transactions:
-Customer ID
-Product ID
-Quantity
-Amount
-Sale Date
-Product Report Table
-Maintains product purchase reports:
-Product ID
-Purchase Date
-Payment Status
-Due Amount
+This system utilizes four main MySQL tables to efficiently manage the data. The Customer Table is used to maintain customer data such as the customer’s ID, customer name, address, and phone number. The Product Table is used to maintain product inventory data such as product ID, product name, company, price, quantity, discount, rate, and purchase date. Furthermore, the Purchase Table is used to maintain product purchase transaction data such as customer ID, product ID, quantity, amount, and sale date. Moreover, the Product Report Table is used to maintain product purchase reports with data such as product ID, purchase date, payment status, and due amount.
 
 ### 🎯 Future Improvements
-Graphical User Interface (GUI)
-Barcode scanning for faster billing
-AI-based inventory prediction
-Online payment integration
-Web-based canteen management system
+1. Graphical User Interface (GUI)
+   
+2. Barcode scanning for faster billing
+   
+3. AI-based inventory prediction
+
+4. Online payment integration
+
+5. Web-based canteen management system
 
 ## 📚 References
-Python Official Documentation
-MySQL Official Documentation
-ChatGPT (OpenAI) for documentation assistance
+1. Python Official Documentation
+   
+2. MySQL Official Documentation
+   
+3. ChatGPT (OpenAI) for documentation assistance
 
 ## Submitted By:
 NAME: Afiya Begum
